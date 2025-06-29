@@ -1,0 +1,68 @@
+.experience-tabs {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tab-buttons {
+  flex: 0 0 200px;
+}
+
+.tab-btn {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid var(--gray-color);
+  color: var(--text-light);
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  border-left: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: rgba(108, 99, 255, 0.1);
+}
+
+.tab-content {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.experience-list {
+  margin-top: 20px;
+}
+
+.experience-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  color: var(--text-light);
+}
+
+.experience-list li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.experience-date {
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+}

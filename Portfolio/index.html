@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Lakshmi Harshitha" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lakshmi Harshitha | Portfolio</title>
+
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/education.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/experience.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script src="js/navbar.js"></script>
+    <script src="js/tabSwitcher.js"></script>
+    <script src="js/formHandler.js"></script>
+    <script src="js/scrollToTop.js"></script>
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/init.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="nav-container">
+        <h1 class="site-title">LH</h1>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="spanning">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Lakshmi Harshitha</h1>
+          <p class="hero-subtitle">Web Developer & Creative Enthusiast</p>
+          <p class="hero-description">
+            Building digital experiences that matter
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="/p_images/Resume.pdf" download class="btn btn-secondary"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img
+              src="/p_images/profile_photo.jpg"
+              alt="Lakshmi Harshitha"
+              class="profile-image"
+            />
+            <div class="image-border"></div>
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/lakshmi-harshitha-cheedella/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=cheedellalakshmi7@gmail.com"
+          target="_blank"
+          aria-label="Email"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a
+          href="https://github.com/ch-lakshmiharshitha"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="scroll-indicator">
+        <span class="scroll-text">Scroll Down</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know More</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="/p_images/about-image.jpg"
+              alt="About Lakshmi Harshitha"
+            />
+          </div>
+          <div class="about-text">
+            <div class="about-details">
+              <div class="detail-item">
+                <i class="fas fa-user-graduate"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>B.Tech in CSE at IIIT Kottayam</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-code"></i>
+                <div>
+                  <h4>Experience</h4>
+                  <p>1+ Years of Development</p>
+                </div>
+              </div>
+            </div>
+            <p class="about-description">
+              I'm a passionate web developer currently pursuing my B.Tech in
+              Computer Science & Engineering at IIIT Kottayam. I specialize in
+              creating clean, interactive, and user-friendly websites that
+              deliver exceptional user experiences.
+            </p>
+            <p class="about-description">
+              When I'm not coding, you can find me practicing Bharatanatyam or
+              sketching. I believe in the power of creativity to solve problems
+              and make the digital world more engaging.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">My Academic Journey</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2023 - 2027</div>
+            <div class="timeline-content">
+              <h3>B.Tech - Computer Science & Engineering</h3>
+              <h4>Indian Institute of Information Technology, Kottayam</h4>
+              <p>Current CGPA: 8.5</p>
+              <ul class="timeline-list">
+                <li>
+                  Key Subjects: Data Structures, DBMS, Web Development,
+                  Algorithms
+                </li>
+                <li>Active member of coding clubs and technical societies</li>
+                <li>
+                  Participated in hackathons and enthusist in web Development
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">What I Offer</span>
+          <h2 class="section-title">My Skills</h2>
+        </div>
+        <div class="skills-container">
+          <div class="skills-column">
+            <h3 class="skills-category">Technical Skills</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML & CSS</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Java</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>C</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Data Structures</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-column">
+            <h3 class="skills-category">Professional Skills</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Team Collaboration</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Communication</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Problem Solving</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Adaptability</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Leadership</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">My Recent Work</span>
+          <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="/p_images/restaurant_p1.jpg"
+                alt="Restaurant Management System"
+              />
+              <div class="project-links">
+                <a href="#" class="project-link"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+                <a href="#" class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Restaurant Management System</h3>
+              <p>
+                A comprehensive web solution for restaurant operations including
+                menu management, customer registration, and table bookings.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="#" class="btn btn-primary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Where I've Worked</span>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="experience-tabs">
+          <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="wildbeats">
+              WildBeats
+            </button>
+          </div>
+          <div class="tab-content">
+            <div class="tab-panel active" id="wildbeats">
+              <h3>
+                PR & Event Management Sublead
+                <span>@ WildBeats, IIIT Kottayam</span>
+              </h3>
+              <p class="experience-date">2024 - Present</p>
+              <ul class="experience-list">
+                <li>Coordinated cultural events with 100+ participants</li>
+                <li>Managed promotions and social media presence</li>
+                <li>Developed leadership and communication skills</li>
+                <li>Organized successful college festivals and competitions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:cheedellalakshmi7@gmail.com"
+                  >cheedellalakshmi7@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin-in"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <a
+                  href="https://www.linkedin.com/in/lakshmi-harshitha-cheedella/"
+                  target="_blank"
+                  >linkedin.com/in/lakshmi-harshitha-cheedella</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-logo">LH</div>
+          <p>Web Developer & Creative Enthusiast</p>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/lakshmi-harshitha-cheedella/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/ch-lakshmiharshitha"
+              ><i class="fab fa-github"></i
+            ></a>
+
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=cheedellalakshmi7@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Lakshmi Harshitha. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
