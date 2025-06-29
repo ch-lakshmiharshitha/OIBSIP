@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(45deg, lightblue, rgb(58, 58, 214));
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #105b89;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+  width: 250px;
+}
+
+button:hover {
+  background-color: #e0a800;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Weather GIF and Label Styling with smooth grow & fade animation */
+#weatherGifContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 240px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  opacity: 0;
+  transform: scale(0.7);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+#weatherGifContainer.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#weatherName {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+#weatherGif {
+  width: 210px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+#weatherGif:hover {
+  transform: scale(1.05);
+}
