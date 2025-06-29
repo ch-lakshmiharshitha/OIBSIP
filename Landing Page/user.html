@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Smiling Hearts Foundation" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Smiling Hearts Foundation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Smiling Hearts Foundation</h1>
+      <h2>- Share a smile every day</h2>
+      <nav>
+        <ul>
+          <li><a href="#About-us">About</a></li>
+          <li><a href="#Aim">Our Aim</a></li>
+          <li><a href="#work">Our Work</a></li>
+          <li><a href="#join-us">Join Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="About-us">
+        <h2>About Us</h2>
+        <p>
+          Smiling Hearts Foundation is dedicated to bringing smiles to those in
+          need by extending a helping hand and support in whatever way we can.
+          Our mission is to make a positive difference in their lives, spreading
+          happiness and hope, one step at a time.
+        </p>
+      </section>
+
+      <section id="Aim" class="with-image">
+        <div class="text">
+          <h2>Our Aim</h2>
+          <p>
+            Our aim is to reach out to as many people in need as we can,
+            spreading happiness, hope, and support. We strive to make a
+            meaningful difference in their lives — not just by providing aid,
+            but by letting them know they are valued, cared for, and never
+            alone.
+          </p>
+        </div>
+        <img
+          src="/images/aim.jpg"
+          alt="Smiling Hearts Foundation aim"
+          class="right-image"
+        />
+      </section>
+
+      <section id="work" class="with-image reverse">
+        <img
+          src="/images/finding_happiness.jpg"
+          alt="Smiling Hearts Foundation work"
+          class="left-image"
+        />
+        <div class="text">
+          <h2>Our Work</h2>
+          <ul>
+            <li>Distributing food and clean water</li>
+            <li>Educational programs for children</li>
+            <li>Medical aid for the vulnerable</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="counter" class="with-image">
+        <div class="text">
+          <h2>We’ve Helped</h2>
+          <p id="counter-number">1,00,000+</p>
+        </div>
+        <img
+          src="/images/girl_smile.jpg"
+          alt="Smiling Hearts Foundation we've helped"
+          class="right-image"
+        />
+      </section>
+
+      <section id="join-us" class="with-image">
+        <div class="text">
+          <h2>Join Our Community</h2>
+          <p>
+            If you wish to be a part of the Smiling Hearts Foundation family and
+            extend a helping hand, please fill in your details below:
+          </p>
+          <form
+            action="#"
+            method="post"
+            class="join-form"
+            onsubmit="showThankYou(event)"
+          >
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="whatsapp">WhatsApp Number:</label>
+            <input
+              type="tel"
+              id="whatsapp"
+              name="whatsapp"
+              placeholder="Enter your whatsapp number"
+              required
+            />
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+
+            <label for="reason">Why do you want to join us?</label>
+            <textarea id="reason" name="reason" rows="3" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img
+          src="/images/join.jpg"
+          alt="Join Smiling Hearts Foundation"
+          class="right-image"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <p>2025 SMILING HEARTS FOUNDATION</p>
+      <div id="contact">
+        <ul>
+          <li>For details, contact:</li>
+          <li>Email: smilingheartsfoundation@gmail.com</li>
+          <li>Phone: +91 xxxxxxxxxx</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      function showThankYou(event) {
+        event.preventDefault();
+        alert("Thank you for your response!");
+
+        event.target.reset();
+      }
+    </script>
+  </body>
+</html>
